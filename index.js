@@ -307,7 +307,8 @@ app.use(cors());
 app.use(compression());
 
 const mongoURI =
-  "mongodb+srv://vaibhav:1234@cluster0.sk5rubx.mongodb.net/recrutoryBlogs?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://shravan:1234@cluster0.gw0ib.mongodb.net/recrutoryBlogs?retryWrites=true&w=majority&appName=Cluster0";
+  // "mongodb+srv://vaibhav:1234@cluster0.sk5rubx.mongodb.net/recrutoryBlogs?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose
   .connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
